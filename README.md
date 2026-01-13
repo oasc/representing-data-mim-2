@@ -1,2 +1,2 @@
-# representing-data-mim-2
-This is the repository for the Representing Data MIM
+# Introduction
+This MIMs allows cities and communities to overcome the challenges of working with data that are represented in different ways by providing recommendations for the use of consistent and machine-readable representations of data so that data from various sources can be efficiently used with confidence across the organisation and shared with collaborators as part of a local data ecosystem.
