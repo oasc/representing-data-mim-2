@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Home](README.md)
+* [Representing Data (MIM2)](README.md)
 * [Objectives](objectives.md)
 * [Capabilities and Requirements](capabilities-and-requirements.md)
 * [Mechanisms](mechanisms.md)
