@@ -5,3 +5,4 @@
 * [Capabilities and Requirements](capabilities-and-requirements.md)
 * [Mechanisms](mechanisms.md)
 * [Resources](resources.md)
+* [Meeting Notes](meeting-notes.md)
