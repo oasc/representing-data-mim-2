@@ -27,6 +27,14 @@ way.
 for that entity and one that would also enable additional new fields to be included in\
 the future
 
+
+
+**C3: Information about an entity from data sources that use different data formats can be easily combined to gain added insight**
+
+| C2 Requirements                                                                                                                                                                                                                                 |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>R5: The data sources shall use standardised formats in common usage.</p><p>For MIMs version 9.0 the acceptable formats are:</p><p>CSV, XML, JSON</p><p>R6: Data from the different sources should be translated into a common format????</p> |
+
 ## Specifications
 
 The following list provides the recommended standardised sets of data models for\
