@@ -1,6 +1,6 @@
 # Mechanisms
 
-### Mechanism 2.1 Smart Data Models with NGSI-LD
+### Mechanism 1: Smart Data Models with NGSI-LD
 
 #### 1. Overview
 
