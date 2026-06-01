@@ -2,27 +2,36 @@
 
 ## Capabilities and Requirements
 
-**C1: All entities included in data sources are described using consistent data models**\
-**to enable interoperability for applications and systems.**
+### **C1: All entities included in data sources are described using consistent data models to enable interoperability for applications and systems.**
 
-| C1 Requirements:                                                                                                                                                                                                                                                                                                                                                                                                           |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>R1. Data models used for all entities in any data source shall be made explicit. They<br>shall be well documented and have descriptive metadata, where the terms used<br>shall be semantically unambiguous. For attributes related to units of measurement,<br>time formats etc, the units, formats etc, used shall be made explicit. The data models<br>should be catalogued* so that they can be easily findable.</p> |
-| <p>R2a. Data models used shall be based (wherever possible) on commonly recognised<br>standardised data models as listed below</p>                                                                                                                                                                                                                                                                                         |
-| <p>R2b. Where it is not possible to use existing standardised data models, efforts shall<br>be made to extend existing standardised data models that are most closely aligned<br>or to define new ones, following best practice and conventions of the community or<br>organisation defining the data models.</p>                                                                                                          |
-| <p>R3. Data models used shall support the exchange of data by using the relevant<br>requirements of the MIMs on Accessing data and Interlinking data*</p>                                                                                                                                                                                                                                                                  |
-|                                                                                                                                                                                                                                                                                                                                                                                                                            |
+**Requirements:**
+
+**R.1**. Data models used for all entities in any data source shall be made explicit. They\
+shall be well documented and have descriptive metadata, where the terms used\
+shall be semantically unambiguous. For attributes related to units of measurement,\
+time formats etc, the units, formats etc, used shall be made explicit. The data models\
+should be catalogued\* so that they can be easily findable.
+
+**R1.2a**. Data models used shall be based (wherever possible) on commonly recognised\
+standardised data models as listed below
+
+**R1.2b**. Where it is not possible to use existing standardised data models, efforts shall\
+be made to extend existing standardised data models that are most closely aligned\
+or to define new ones, following best practice and conventions of the community or\
+organisation defining the data models.
+
+**R3**. Data models used shall support the exchange of data by using the relevant\
+requirements of the MIMs on Accessing data and Interlinking data\*
 
 \*Note: Should the cataloguing be done in a human readable way, the data models\
 themselves would not necessarily need to be made explicit in a human readable\
 way.
 
-**C2: Different data models for the same entity that are used within a common data**\
-**sharing ecosystem should be easily transformable into a common data model**
+### **C2: Different data models for the same entity that are used within a common data sharing ecosystem should be easily transformable into a common data model**
 
-| C2 Requirements                                                                                                                                                                                                                                                                                                                                                  |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| R1. A common data model for each key entity should be developed for any data ecosystem. That common data model should contain all the fields included within the different data models for that entity that are used within that data ecosystem. Each different data model used within that data ecosystem could then be transformed into the common data model. |
+**Requirements:**
+
+**R2.1** A common data model for each key entity should be developed for any data ecosystem. That common data model should contain all the fields included within the different data models for that entity that are used within that data ecosystem. Each different data model used within that data ecosystem could then be transformed into the common data model.
 
 \*Note: As far as possible this common data model should be a standard data model\
 for that entity and one that would also enable additional new fields to be included in\
@@ -30,13 +39,25 @@ the future
 
 
 
-**C3: Any data and its associated metadata can be shared in open, standardised, data transport formats so that data can be exchanged and interpreted consistently by different tools and implementations.**
+### **C3: Any data and its associated metadata can be shared in open, standardised, data transport formats so that data can be exchanged and interpreted consistently by different tools and implementations.**
 
-| C3 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p><strong>R1.</strong> Each data model used shall have at least one defined machine-readable data transport format that is open, publicly available and implementation-independent. *seialisation</p><p><strong>R2.</strong> The documentation of the data transport format should be sufficient to allow the creation of non-proprietary application or interpretor that is able to reconstruct all the data stored in such a data format.</p><p><strong>R3.</strong> Where multiple data transport formats are supported for the same data model, they shall represent the same information content consistently and without loss of meaning.</p><p><strong>R4.</strong> The representation should support validation using openly published schemas, grammars, or equivalent machine-readable constraints, where such validation mechanisms exist for the chosen format.</p> |
+**Requirements:**
 
-**C4: When useful, it should be possible to create "Application Profiles" for a data model, so that use case specific attributes can be added or specified without changing the underlying data model\***
+**R3.1** Each data model used shall have at least one defined machine-readable data transport format ("serialisation") that is open, publicly available and implementation-independent.&#x20;
+
+**R3.2** The documentation of the data transport format should be sufficient to allow the creation of non-proprietary application or interpretor that is able to reconstruct all the data stored in such a data format.
+
+**R3.3** Where multiple data transport formats are supported for the same data model, they shall represent the same information content consistently and without loss of meaning.
+
+**R3.4** The representation should support validation using openly published schemas, grammars, or equivalent machine-readable constraints, where such validation mechanisms exist for the chosen format.
+
+### **C4: When useful, it should be possible to create "Application Profiles" for a data model, so that use case specific attributes can be added or specified without changing the underlying data model\***
+
+**Requirements:**
+
+**R4.1** Application Profiles that extend a data model should not impact the already existing model and its users
+
+**R4.2** The specialisations or extensions introduced in the Application Profile of the model should be well documented, separate from the base data model
 
 
 
